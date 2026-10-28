@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aurpon | Portfolio</title>
+  <meta name="description" content="Portfolio of Kazi Sajedul Mahbub Arpon, Computer Science student and web developer." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- 1. NAVBAR -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="logo" id="logo">Aurpon<span>.</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#experience" id="navExperience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- 2, 3, 4. HERO: designation, photo, resume button, social links -->
+    <section class="hero" id="home">
+      <div class="container hero-inner">
+        <div class="hero-text reveal">
+          <p class="eyebrow">Hello, I'm</p>
+          <h1 id="heroName"></h1>
+          <h2 class="designation" id="heroDesignation"></h2>
+          <p class="tagline" id="heroTagline"></p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" id="resumeBtn" href="assets/resume.pdf" target="_blank" rel="noopener" download>Download Resume</a>
+            <a class="btn btn-ghost" href="#projects">View Projects</a>
+          </div>
+          <div class="socials" id="heroSocials" aria-label="Social links"></div>
+        </div>
+        <div class="hero-photo reveal">
+          <div class="photo-frame"><div class="photo-clip"><img id="heroPhoto" alt="Portrait of Kazi Sajedul Mahbub Arpon" /></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. ABOUT -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section-title reveal">About <span>Me</span></h2>
+        <div class="about-grid">
+          <div class="about-text reveal" id="aboutText"></div>
+          <ul class="facts reveal" id="aboutFacts"></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. SKILLS -->
+    <section class="section alt" id="skills">
+      <div class="container">
+        <h2 class="section-title reveal">My <span>Skills</span></h2>
+        <div class="skills-grid" id="skillsGrid"></div>
+      </div>
+    </section>
+
+    <!-- 7. EDUCATION -->
+    <section class="section" id="education">
+      <div class="container">
+        <h2 class="section-title reveal">Educational <span>Qualification</span></h2>
+        <div class="timeline" id="educationList"></div>
+      </div>
+    </section>
+
+    <!-- 8. EXPERIENCE -->
+    <section class="section alt" id="experience">
+      <div class="container">
+        <h2 class="section-title reveal">Work <span>Experience</span></h2>
+        <div class="timeline" id="experienceList"></div>
+      </div>
+    </section>
+
+    <!-- 9. PROJECTS -->
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="section-title reveal">Featured <span>Projects</span></h2>
+        <div class="projects-grid" id="projectsGrid"></div>
+      </div>
+    </section>
+
+    <!-- 10. CONTACT -->
+    <section class="section alt" id="contact">
+      <div class="container">
+        <h2 class="section-title reveal">Get In <span>Touch</span></h2>
+        <p class="section-sub reveal">Have a question or want to work together? Reach out directly.</p>
+        <div class="contact-grid" id="contactGrid"></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 11. FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> <span id="footerName"></span>. All rights reserved.</p>
+      <div class="socials small" id="footerSocials"></div>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
