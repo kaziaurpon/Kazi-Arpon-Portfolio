@@ -5,7 +5,7 @@ const PORTFOLIO = {
   designation: "Full Stack Developer",
 tagline:
   "Computer Science student building fast, responsive full-stack web apps with React, Next.js and Node.js.",
-  photo: "assets/aurpon.png", 
+  photo: "assets/aurpon.jpg", 
   resume: "assets/resume.pdf", 
 
   socials: [
