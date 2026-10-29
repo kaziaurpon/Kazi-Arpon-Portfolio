@@ -1,15 +1,12 @@
-/* ==========================================================
-   EDIT THIS FILE ONLY — all your personal content lives here.
-   Anything marked TODO is a placeholder to replace with real info.
-   ========================================================== */
+
 
 const PORTFOLIO = {
   name: "Kazi Sajedul Mahbub Arpon",
   designation: "Full Stack Developer",
 tagline:
   "Computer Science student building fast, responsive full-stack web apps with React, Next.js and Node.js.",
-  photo: "assets/aurpon.png", // TODO: replace with your professional photo (e.g. assets/me.jpg)
-  resume: "assets/resume.pdf", // TODO: put your resume at assets/resume.pdf (button works either way)
+  photo: "assets/aurpon.png", 
+  resume: "assets/resume.pdf", 
 
   socials: [
     { name: "GitHub", short: "GH", url: "https://github.com/kaziaurpon" }, // TODO: your profile URL
@@ -19,7 +16,7 @@ tagline:
   ],
 
   about: {
-    paragraphs: [ // TODO: rewrite in your own voice. Cover: journey, favourite work, hobbies, personality.
+    paragraphs: [ 
      
   "Hi, I'm Kazi Sajedul Mahbub Arpon, a Computer Science and Engineering student at Daffodil International University who loves turning ideas into fast, clean and useful web applications. My programming journey began with curiosity about how the websites we use every day actually work, and it has since grown into building full-stack projects with React, Next.js and Node.js. Along the way I created Bazar-Dor, a Bangla app that tracks daily bazaar prices, and FitLog, a workout planner, and I placed 7th in the AI DevFest 2026 Vibe Coding contest.",
   "Through my coursework in Computer Networks, Compiler Design, Database Management Systems and Software Engineering, I have learned how software works from the network layer up to the interface. I enjoy leading group projects, breaking big problems into small tasks, and helping the team ship something we are proud of.",
@@ -89,7 +86,7 @@ tagline:
   }
 ],
 
-  // TODO: replace these 3 placeholders with your best real projects (add more if you like).
+  
   projects: [
   {
     id: "bazar-dor",
@@ -153,9 +150,9 @@ tagline:
 ],
 
   contact: {
-    email: "kaziaurpon1@gmail.com", // TODO
-    phone: "+8801611158808", // TODO
-    whatsapp: "8801611158808", // TODO: digits only with country code, or "" to hide
+    email: "kaziaurpon1@gmail.com", 
+    phone: "+8801611158808", 
+    whatsapp: "8801611158808", 
     location: "Dhaka, Bangladesh"
   }
 };
