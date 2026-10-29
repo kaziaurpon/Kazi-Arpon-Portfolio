@@ -2,7 +2,7 @@
 
 A fast, fully responsive personal portfolio website for **Kazi Sajedul Mahbub Arpon**, a Full Stack Developer and Computer Science & Engineering student at Daffodil International University (DIU).
 
-**Live site:** https://kaziaurpon.github.io/portfolio/
+**Live site:** https://kaziaurpon.github.io/Kazi-Arpon-Portfolio/
 
 ---
 
@@ -39,7 +39,7 @@ This portfolio presents my background, skills, education, leadership experience 
 ## Project Structure
 
 ```
-portfolio/
+Kazi-Arpon-Portfolio/
 ├── index.html          # Main page (all sections)
 ├── project.html        # Project details page (loads a project by id)
 ├── css/
@@ -57,8 +57,8 @@ All content lives in `js/data.js`, so the site can be updated without touching t
 
 ```bash
 # Clone the repository
-git clone https://github.com/kaziaurpon/portfolio.git
-cd portfolio
+git clone https://github.com/kaziaurpon/Kazi-Arpon-Portfolio.git
+cd Kazi-Arpon-Portfolio
 ```
 
 Then open the folder in VS Code and run **index.html** with the Live Server extension, or start any local server, for example:
