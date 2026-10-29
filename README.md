@@ -2,7 +2,7 @@
 
 A fast, fully responsive personal portfolio website for **Kazi Sajedul Mahbub Arpon**, a Full Stack Developer and Computer Science & Engineering student at Daffodil International University (DIU).
 
-**Live site:** https://kaziaurpon.github.io/Kazi-Arpon-Portfolio/
+**Live site:** https://kazi-arpon-portfolio.vercel.app
 
 ---
 
@@ -76,7 +76,7 @@ and open `http://localhost:5500`.
 
 ## Deployment
 
-The site is deployed with **GitHub Pages** from the `main` branch (root folder). Every `git push` to `main` updates the live site automatically. It can also be deployed on Vercel or Netlify with no extra configuration.
+The site is deployed on **Vercel** and updates automatically on every push to the `main` branch. It can also be hosted on GitHub Pages or Netlify with no extra configuration.
 
 ## Contact
 
