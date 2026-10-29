@@ -27,7 +27,7 @@ tagline:
       { label: "Focus", value: "Web development" },
       { label: "Role in teams", value: "Project lead" },
       { label: "Currently", value: "Computer Science student" },
-      { label: "Hobbies", value: "AI tools, projects, math, cricket & books" }
+      { label: "Interests", value: "AI tools, Problem solving, Cricket" }
     ]
   },
 
