@@ -48,9 +48,9 @@ tagline:
     {
   degree: "B.Sc. in Computer Science and Engineering",
   school: "Daffodil International University (DIU)",
-  period: "2024 – 2027",
+  period: "2024 – Present",
   details:
-    "CGPA: 3.64. Relevant coursework: Computer Networks, Compiler Design, Database Management Systems, Software Engineering."
+    "CGPA: 3.64. Relevant coursework: Programming & Problem Solving, Data Structures and Algorithms, Object-Oriented Programming, Computer Networks, Compiler Design, Database Management Systems, Software Engineering, Operating Systems, Data Science."
 },
 
     {
